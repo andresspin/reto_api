@@ -1,0 +1,103 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "retoAPI",
+    "dateExported": "2023-06-07T03:08:43.484Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a8152fe7-aa35-4933-b101-937799815f3a",
+            "colId": "4075332e-fb53-401a-954f-fe02687206c9",
+            "containerId": "",
+            "name": "getPost",
+            "url": "http://localhost:4000/post",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-06-06T03:55:05.071Z",
+            "modified": "2023-06-06T18:00:06.926Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "483a3b72-d1c7-47fb-8c9c-2c5dd8ac9db0",
+            "colId": "4075332e-fb53-401a-954f-fe02687206c9",
+            "containerId": "",
+            "name": "getComments",
+            "url": "http://localhost:4000/comments",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-06-06T18:00:21.069Z",
+            "modified": "2023-06-06T18:03:04.993Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "dd4c11d5-269d-431b-b31c-3185b976653a",
+            "colId": "4075332e-fb53-401a-954f-fe02687206c9",
+            "containerId": "",
+            "name": "getCommentsId",
+            "url": "http://localhost:4000/comments/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-06-06T18:19:59.377Z",
+            "modified": "2023-06-06T18:20:10.346Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4b770255-fb1d-4850-96b2-ef2d83449cfe",
+            "colId": "4075332e-fb53-401a-954f-fe02687206c9",
+            "containerId": "",
+            "name": "editComments",
+            "url": "http://localhost:4000/comments/1",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-06-06T18:24:16.093Z",
+            "modified": "2023-06-06T21:52:03.356Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"content\": \"Nuevo contenido del comentario 2\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c577a4d7-f11f-4640-99ce-abc63ccef447",
+            "colId": "4075332e-fb53-401a-954f-fe02687206c9",
+            "containerId": "",
+            "name": "createComment",
+            "url": "http://localhost:4000/comments",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-06-06T18:28:20.380Z",
+            "modified": "2023-06-06T21:52:16.564Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"content\": \" otro nuevo comentario\",\n  \"post_idpost\": 1\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c0147161-799c-4c43-969c-daa568a75c55",
+            "colId": "4075332e-fb53-401a-954f-fe02687206c9",
+            "containerId": "",
+            "name": "deleteComments",
+            "url": "http://localhost:4000/comments/8",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2023-06-06T18:37:10.524Z",
+            "modified": "2023-06-06T21:52:26.292Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
